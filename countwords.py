@@ -1,6 +1,6 @@
 input = "This is a test.  This is another test"
 mydict = {}
-with open("/Users/ssubrama/Documents/file.txt",'r') as f:
+with open("file.txt",'r') as f:
    textList = f.readlines()
 
 for line in textList:
